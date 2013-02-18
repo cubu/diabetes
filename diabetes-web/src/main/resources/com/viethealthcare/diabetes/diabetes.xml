@@ -1,0 +1,26 @@
+<change-set xmlns='http://drools.org/drools-5.0/change-set' xmlns:xs='http://www.w3.org/2001/XMLSchema-instance'
+  xs:schemaLocation='http://drools.org/drools-5.0/change-set drools-change-set-5.0.xsd'>
+  <add>
+    <resource type="DRL" source="classpath:org/tohu/Active.drl" />
+    <resource type="DRL" source="classpath:org/tohu/Changes.drl" />
+    <resource type="DRL" source="classpath:org/tohu/Item.drl" />
+    <resource type="DRL" source="classpath:org/tohu/Queries.drl" />
+    <resource type="DRL" source="classpath:org/tohu/Question.drl" />
+    <resource type="DRL" source="classpath:org/tohu/ReadOnly.drl" />
+    <resource type="DRL" source="classpath:com/viethealthcare/diabetes/Alcohol.drl" />
+    <resource type="DRL" source="classpath:com/viethealthcare/diabetes/StartQuestions.drl" />
+    <resource type="DRL" source="classpath:com/viethealthcare/diabetes/Eating.drl" />
+    <resource type="DRL" source="classpath:com/viethealthcare/diabetes/PhysicalActivity.drl" />
+    <resource type="DRL" source="classpath:com/viethealthcare/diabetes/Tobacco.drl" />
+    <resource type="DRL" source="classpath:com/viethealthcare/diabetes/ValidValues.drl" />
+    <resource type="DRL" source="classpath:com/viethealthcare/diabetes/SpecialIllness_Diabetes.drl" />
+    <resource type="DRL" source="classpath:com/viethealthcare/diabetes/SpecialIllness_FoodAllergies.drl" />
+    <resource type="DRL" source="classpath:com/viethealthcare/diabetes/SpecialIllness_Gout.drl" />
+    <resource type="DRL" source="classpath:com/viethealthcare/diabetes/SpecialIllness_HeartAttack.drl" />
+    <resource type="DRL" source="classpath:com/viethealthcare/diabetes/SpecialIllness_HighBloodPressure.drl" />
+    <resource type="DRL" source="classpath:com/viethealthcare/diabetes/SpecialIllness_HighCholesterol.drl" />
+    <resource type="DRL" source="classpath:com/viethealthcare/diabetes/SpecialIllness_Osteoporosis.drl" />
+    <resource type="DRL" source="classpath:com/viethealthcare/diabetes/SpecialIllness_Questions.drl" />
+    <resource type="DRL" source="classpath:com/viethealthcare/diabetes/BranchingRules.drl" />
+  </add>
+</change-set>
